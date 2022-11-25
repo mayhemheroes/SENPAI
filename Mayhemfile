@@ -1,0 +1,9 @@
+image: index.docker.io/tngo04/senpai@sha256:302cbe3cacfb9571f2506999a0c8ca451a54b5120948d5a9ddc77241eebcef05
+duration: 480
+project: tngo04/senpai
+target: senpai-model
+cmds:
+  - cmd: senpai --substrate ./examples/16-water/water.mds --solvent ./examples/16-water/void.mds --out ./examples/16-water/render.xyz --model @@
+    env: {}
+testsuite:
+  - https://mayhem.forallsecure.com/tngo04/senpai/senpai-model/testsuite.tar
