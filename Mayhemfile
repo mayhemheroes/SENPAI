@@ -1,4 +1,4 @@
-image: index.docker.io/tngo04/senpai@sha256:302cbe3cacfb9571f2506999a0c8ca451a54b5120948d5a9ddc77241eebcef05
+image: index.docker.io/tngo04/senpai:latest
 duration: 480
 project: tngo04/senpai
 target: senpai-model
