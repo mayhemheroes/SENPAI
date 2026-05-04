@@ -1,9 +1,7 @@
-image: index.docker.io/tngo04/senpai:latest
+image: ghcr.io/mayhemheroes/senpai:master
 duration: 480
-project: tngo04/senpai
+project: mayhemheroes/senpai
 target: senpai-model
 cmds:
   - cmd: senpai --substrate ./examples/16-water/water.mds --solvent ./examples/16-water/void.mds --out ./examples/16-water/render.xyz --model @@
     env: {}
-testsuite:
-  - https://mayhem.forallsecure.com/tngo04/senpai/senpai-model/testsuite.tar
